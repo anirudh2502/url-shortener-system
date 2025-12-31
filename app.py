@@ -65,7 +65,7 @@ def get_db_connection():
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='anirudh2502',
+        password='your_password_here',           #update with your mysql password
         database='url_shortener'
     )
     return connection
